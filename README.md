@@ -119,5 +119,5 @@ Distribué sous licence MIT. Voir `LICENSE` pour plus d'informations.
 
 ## 👨‍💻 Auteur
 
-**Kalil** - *Projet de robotique autonome réalisé en 2026.*
+**Belem Abdoul Kalilou** - *Projet de robotique autonome réalisé en 2026.*
 ```
