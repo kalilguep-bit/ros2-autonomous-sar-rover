@@ -24,3 +24,16 @@ graph TD
     E --> G[Nav2 Stack]
     F --> G
     G --> H[Commandes Robot]
+
+
+
+
+## 📦 Installation Rapide
+
+```bash
+docker start ros2_gazebo
+docker exec -it ros2_gazebo bash
+source /opt/ros/humble/setup.bash
+export DISPLAY=host.docker.internal:0
+export TURTLEBOT3_MODEL=waffle_pi
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
