@@ -10,7 +10,7 @@
 - ✅ Exploration et cartographie autonome (SLAM)
 - ✅ Détection de victimes par vision par ordinateur (OpenCV)
 - ✅ Navigation autonome avec évitement d'obstacles (Nav2)
-- ✅ Architecture modulaire et extensible
+- ✅ Architecture logicielle modulaire et extensible
 
 ## 🏗️ Architecture du Système
 
