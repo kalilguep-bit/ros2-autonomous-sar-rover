@@ -1,3 +1,4 @@
+```markdown
 # 🤖 Autonomous Search & Rescue Rover
 
 [![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue)](https://docs.ros.org/en/humble/)
@@ -27,17 +28,8 @@ graph TD
     E --> G[Nav2 Stack]
     F --> G
     G --> H[Commandes Robot]
+```
 
-
----
-
-### 📝 ÉTAPE 2 : Colle la deuxième moitié (la suite)
-
-1. Clique avec ta souris **tout en bas** du texte que tu viens de coller (juste après le dernier ```).
-2. Appuie sur la touche **Entrée** de ton clavier pour sauter une ligne.
-3. Copie **uniquement ce deuxième bloc** ci-dessous et colle-le à la suite :
-
-```markdown
 ## 🚀 Phases du Projet
 
 ### Phase 1 : Environnement et Simulation
@@ -97,8 +89,11 @@ export TURTLEBOT3_MODEL=waffle_pi
 
 # 3. Lancer la simulation
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
 
+## 📂 Structure du Workspace
 
+```text
 search_and_rescue_ws/
 ├── src/
 │   ├── victim_detector/       # Package personnalisé (Python)
@@ -109,12 +104,20 @@ search_and_rescue_ws/
 └── map/                       # Cartes sauvegardées
     ├── map.pgm
     └── map.yaml
+```
 
+## 💡 Compétences Démontrées
 
+- **Robotique** : ROS 2 (Humble), Gazebo, RViz, TF2, URDF.
+- **Algorithmique** : SLAM (Cartographer), Path Planning (Nav2), Computer Vision (OpenCV).
+- **Développement** : Python 3, Bash, Git/GitHub.
+- **DevOps** : Docker, Linux (Ubuntu).
 
----
+## 📄 Licence
 
-### ✅ ÉTAPE 3 : Sauvegarder
-Descends tout en bas de la page GitHub et clique sur le bouton vert **"Commit changes"**.
+Distribué sous licence MIT. Voir `LICENSE` pour plus d'informations.
 
-En faisant ça en deux fois, ton texte ne sera plus coupé et tout le formatage (les titres, les images, le code) s'affichera parfaitement ! Dis-moi si ça a marché ! 🚀
+## 👨‍💻 Auteur
+
+**Kalil** - *Projet de robotique autonome réalisé en 2026.*
+```
