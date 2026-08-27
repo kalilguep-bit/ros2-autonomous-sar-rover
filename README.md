@@ -24,3 +24,6 @@ graph TD
     E --> G[Nav2 Stack]
     F --> G
     G --> H[Commandes Robot]
+### Phase 2 - Cartographie SLAM (Complétée ✅)
+![Carte SLAM complète](slam_map_complete.png)
+*Carte 2D générée en temps réel par le SLAM Toolbox. Le robot a exploré toutes les pièces de la maison.*
